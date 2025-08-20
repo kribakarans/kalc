@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Calculator",
+            "type": "shell",
+            "command": "make",
+            "group": { "kind": "build", "isDefault": true }
+        },
+        {
+            "label": "Clean Calculator",
+            "type": "shell",
+            "command": "make clean"
+        },
+        {
+            "label": "Run Calculator",
+            "type": "shell",
+            "command": "./calc"
+        }
+    ]
+}

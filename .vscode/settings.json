@@ -1,0 +1,43 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+        "/usr/include",
+        "/usr/local/include"
+    ],
+    "C_Cpp.default.defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+    ],
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++17",
+    "makefile.makefilePath": "${workspaceFolder}/Makefile",
+    "makefile.configurations": [
+        {
+            "name": "Default",
+            "makeArgs": [],
+            "makeFlags": "-j4",
+            "makefilePath": "Makefile",
+            "buildDirectory": "${workspaceFolder}"
+        }
+    ],
+    "makefile.buildBeforeLaunch": true,
+    "editor.formatOnSave": true,
+    "editor.rulers": [80],
+    "search.exclude": {
+        "**/cscope.*": true,
+        "**/tags": true,
+        "**/build": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vscode": false
+    }
+}
